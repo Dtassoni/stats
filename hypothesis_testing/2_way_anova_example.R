@@ -4,9 +4,9 @@ setwd("C:/Users/dtass/OneDrive/Desktop/R work")
 D = read.xlsx(xlsxFile= "2_way_example.xlsx")
 D
 #makes factors
-x2 = factor(DATA[,2],levels= c("c","w","h"))
-x1 = factor(DATA[,1],levels= c("x","y"))
-y = DATA[,3]
+x2 = factor(D[,2],levels= c("c","w","h"))
+x1 = factor(D[,1],levels= c("x","y"))
+y = D[,3]
 # makes box plot
 title = "Dirt removal by detergent and temp"
 x_label = "group combo"
