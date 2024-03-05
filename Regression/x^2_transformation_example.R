@@ -1,7 +1,7 @@
 library(openxlsx)
 setwd("C:/Users/dtass/OneDrive/Desktop/R work")
 #reads data
-D = read.xlsx(xlsxFile= "box_cox_example.xlsx")
+D = read.xlsx(xlsxFile= "x^2.xlsx")
 D
 
 #plots data
